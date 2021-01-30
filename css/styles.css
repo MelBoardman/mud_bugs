@@ -1,11 +1,30 @@
+@font-face {
+    font-family: 'Belshaw';
+    src: url('/belshaw/Belshaw.eot');
+    src: url('/belshaw/Belshaw.eot?#iefix') format('embedded-opentype'),
+        url('/belshaw/Belshaw.woff2') format('woff2'),
+        url('/belshaw/Belshaw.woff') format('woff'),
+        url('/belshaw/Belshaw.ttf') format('truetype'),
+        url('/belshaw/Belshaw.svg#Belshaw') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
+    background-color:#64c0e777;
     padding-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    background-color:#64c0e7ad;
 }
 
 header {
     height:30vh;
-    background-color: aqua;
     text-align: center;
+    font-family: 'Belshaw', sans-serif;
 }
 
 #intro {
@@ -13,6 +32,6 @@ header {
 }
 
 footer {
-    background-color: aqua;
+    background-color:#64BFE7ad;
     text-align: center;
 }
