@@ -12,26 +12,66 @@
 }
 
 body {
-    background-color:#64c0e777;
+    background-color: #64c0e777;
     padding-top: 50px;
     font-family: 'Oswald', sans-serif;
 }
 
 .navbar {
-    background-color:#64c0e7ad;
+    background-color: #64c0e7ad;
+
+}
+
+@media only screen and (min-width: 337px) {
+
+    .navbar-brand {
+        font-family: 'Belshaw', sans-serif;
+        text-shadow: 1px 6px 2px #FDE400;
+        font-size: 1.8em;
+    }
+
+    .smaller {
+        font-size: 0.6em;
+    }
+    .heading {
+        font-size: 4em;
+    }
+}
+@media only screen and (max-width: 336px) {
+
+    .navbar-brand {
+        font-family: 'Belshaw', sans-serif;
+        text-shadow: 1px 6px 2px #FDE400;
+        font-size: 1.5em;
+    }
+
+    .smaller {
+        font-size: 0em;
+    }
+    .heading {
+        font-size: 3em;
+    }
 }
 
 header {
-    height:30vh;
+    height: 35vh;
     text-align: center;
     font-family: 'Belshaw', sans-serif;
+    text-shadow: 1px 6px 2px #FDE400;
 }
+
+
 
 #intro {
     text-align: center;
+    margin:0 20px;
+}
+
+.cta-btn {
+    background-color: #64c0e7ad;
 }
 
 footer {
-    background-color:#64BFE7ad;
+    background-color: #64BFE7ad;
     text-align: center;
 }
