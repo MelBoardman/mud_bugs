@@ -13,7 +13,6 @@
 
 body {
     background-color: #64c0e777;
-    padding-top: 50px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -34,7 +33,7 @@ body {
         font-size: 0.6em;
     }
     .heading {
-        font-size: 4em;
+        font-size: 5em;
     }
 }
 @media only screen and (max-width: 336px) {
@@ -58,6 +57,8 @@ header {
     text-align: center;
     font-family: 'Belshaw', sans-serif;
     text-shadow: 1px 6px 2px #FDE400;
+    background: url('../assets/images/hojz1mnqpao21.jpg'); 
+    background-size: cover; 
 }
 
 
