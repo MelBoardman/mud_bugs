@@ -1,0 +1,18 @@
+body {
+    padding-top: 50px;
+}
+
+header {
+    height:30vh;
+    background-color: aqua;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+}
