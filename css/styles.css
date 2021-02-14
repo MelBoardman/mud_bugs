@@ -93,7 +93,7 @@ body {
 
 footer {
     background-color: #64BFE7ad;
-    text-align: center;
+    /* text-align: center; */
 }
 .footer-brand {
     font-family: 'Belshaw', sans-serif;
