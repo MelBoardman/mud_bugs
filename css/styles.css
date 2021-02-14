@@ -99,3 +99,9 @@ footer {
     font-family: 'Belshaw', sans-serif;
     text-shadow: 0px 3px 1px #FDE400;
 }
+
+.image-style {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
