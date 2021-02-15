@@ -26,6 +26,9 @@ body {
         background-size: cover; 
     }
     header {
+        /* use display table to center the text vertically */
+        display: table;
+        width: 100vw;
         height: 30vh;
         text-align: center;
         font-family: 'Belshaw', sans-serif;
@@ -40,7 +43,7 @@ body {
         display:none;
     }
     .heading {
-        font-size: 4.5em;
+        font-size:5em;
         line-height: 80%;
     }
     .navbar-light {
@@ -59,6 +62,8 @@ body {
     
     }
     header {
+        display: table;
+        width: 100vw;
         height: 35vh;
         text-align: center;
         font-family: 'Belshaw', sans-serif;
@@ -75,12 +80,16 @@ body {
     .smaller {
         font-size: 0.6em;
     }
+
     .heading {
         font-size: 5em;
     }
 }
 
-
+.center-heading {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 #intro {
     text-align: center;
