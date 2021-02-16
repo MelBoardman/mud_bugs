@@ -114,3 +114,23 @@ footer {
     margin: auto;
     display: block;
 }
+
+
+/* --- Menu page --- */
+.menu-item-background {
+    background: url('../assets/images/Menu\ Background\ Plain\ reduced.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-item-text {
+    margin:10%;
+    background-color: #64c0e7ad;
+    border-radius: 4%;
+}
+
+.menu-image-style {
+    margin: 10%;
+    border-radius: 4%;
+
+}
