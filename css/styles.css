@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #64c0e777;
+    background-color: #9cd8f1;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -58,7 +58,7 @@ body {
         display:none;
     }
     .navbar {
-        background-color: #64c0e7ad;
+        background-color: #64c0e7;
     
     }
     header {
@@ -97,11 +97,11 @@ body {
 }
 
 .cta-btn {
-    background-color: #64c0e7ad;
+    background-color: #64c0e7;
 }
 
 footer {
-    background-color: #64BFE7ad;
+    background-color: #64BFE7;
     /* text-align: center; */
 }
 .footer-brand {
@@ -115,18 +115,39 @@ footer {
     display: block;
 }
 
-
-/* --- Menu page --- */
-.menu-item-background {
-    background: url('../assets/images/Menu\ Background\ Plain\ reduced.png');
-    background-size: cover;
-    background-position: center;
+.black-text {
+    color:black;
 }
 
+/* --- Menu page --- */
+.main-menu {
+    background-color:#64c0e7 ;
+}
+
+.sub-menu {
+    background-color: #9cd8f1;
+}
+@media only screen and (max-width: 767px) {  
+    .menu-item-background {
+        background: url('../assets/images/Menu\ Background\ Plain\ reduced.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .menu-item-background {
+        background: url('../assets/images/Menu-background-desktop.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
 .menu-item-text {
     margin:10%;
-    background-color: #64c0e7ad;
+    background-color: #9cd7f1c4;
     border-radius: 4%;
+    color: black;
+    text-align: justify;
+    padding: 5%;
 }
 
 .menu-image-style {
