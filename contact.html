@@ -2,83 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Navbar</a>
+  <!-- desktop nav bar -->
+  <div class="desktop sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Mud Bugs <small class="smaller">Creole Cuisine</small></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="menu.html">Menu</a>
-                <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">HOME </a>
+                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link active" href="menu.html">MENU<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
             </div>
         </div>
     </nav>
-    <header>
-        <br><br>
-        <h1>Get in touch</h1>
-    </header>
-    <main>
-        <div class="container">
-            <h2>Give Feedback to Our Website.</h2>
-    <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
-      <div>
-        <label for="name">Name:
-          <input type="text" name="name" id="name" />
-        </label>
-      </div>
-      <div>
-        <label for="email">Email:
-          <input type="text" name="email" id="email" />
-        </label>
-      </div>
-      <div>
-        <label>Comments:</label>
-        <br />
-        <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
-      </div>
-      <div>
-        <input type="submit" name="submit" value="Send" />
-        <input type="reset" name="reset" value="Clear Form" />
-      </div>
-    </form>
+
+</div>
+<!-- Desktop Header -->
+<header class="desktop">
+    <br><br><br>
+    <div class="center-heading">
+        <h1 class="heading">Contact Us</h1>
+    </div>
+</header>
+<!-- Mobile Navbar   -->
+<div class="mobile  sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Mud Bugs <small class="smaller">Creole Cuisine</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">HOME</a>
+                <a class="nav-link active" href="about.html">ABOUT</a>
+                <a class="nav-link" href="menu.html"><strong>- MENU</strong><span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </div>
         </div>
-        <br>
-        <br>
-    </main>
-    <footer class="page-footer font-small">
-        <div class="container-fluid text-center">
-            <h5 class="text-uppercase">FOOTER</h5>
-            <a target="_blank" href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest"></i></a>
-            <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+    </nav>
+</div>
+</div>
+  <main>
+    <div class="container">
+      <h2>GET IN TOUCH</h2>
+      <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
+        <div>
+          <label for="name">Name:
+            <input type="text" name="name" id="name" />
+          </label>
         </div>
-        <div class="footer-copyright text-center py-3">
-            <p>© 2021 Copyright: TEMPLATE</p>
-            <p>Website designed and developed by MKB Technical LTD</p>
+        <div>
+          <label for="email">Email:
+            <input type="text" name="email" id="email" />
+          </label>
         </div>
-    </footer>
+        <div>
+          <label>Comments:</label>
+          <br />
+          <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Send" />
+          <input type="reset" name="reset" value="Clear Form" />
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+  </main>
+  <footer class="page-footer font-small">
+    <div class="container-fluid text-center">
+      <h5 class="text-uppercase">FOOTER</h5>
+      <a target="_blank" href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest"></i></a>
+      <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+    </div>
+    <div class="footer-copyright text-center py-3">
+      <p>© 2021 Copyright: TEMPLATE</p>
+      <p>Website designed and developed by MKB Technical LTD</p>
+    </div>
+  </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
