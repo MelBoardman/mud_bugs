@@ -31,3 +31,5 @@ The about page has the ‘Who are we’ and ‘What is creole?’ sections.
 The Menu page just has the items listed. My plan is to add some user interaction / animation here. So when hovered on or clicked on the menu expands and further text description / image is displayed. We can also add a PDF download button so they can have the whole menu. 
 
 The Contact page details how to contact and a contact form. 
+
+WhatsApp logo from  https://whatsappbrand.com/
