@@ -23,8 +23,16 @@ body {
     }
     .mobile {
         background: url('../assets/images/texture-vintage-blue-turquoise-painted-wooden-background_92056-425_075_sat.png'); 
-        background-size: cover; 
+        /* background-size: cover;  */ 
     }
+    .navbar-collapse {
+        border-radius: 2%;
+        background-color: #9cd7f1d5 !important;
+        text-shadow: none;
+        margin:5%;
+        padding: 5%;
+    }
+
     header {
         /* use display table to center the text vertically */
         display: table;
