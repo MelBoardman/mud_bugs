@@ -30,7 +30,7 @@ body {
         background-color: #9cd7f1d5 !important;
         text-shadow: none;
         margin:5%;
-        padding: 5%;
+        padding: 10%;
     }
 
     header {
@@ -151,7 +151,7 @@ footer {
 }
 .menu-item-text {
     margin:10%;
-    background-color: #f0f3f5d3;
+    background-color: #f0f3f5e3;
     border-radius: 4%;
     color: black;
     text-align: justify;
