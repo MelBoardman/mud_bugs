@@ -76,9 +76,12 @@ body {
         text-align: center;
         font-family: 'Belshaw', sans-serif;
         text-shadow: 0px 6px 2px #FDE400;
-        background: url('../assets/images/hojz1mnqpao21.jpg'); 
+        background: url('../assets/images/hojz1mnqpao21.jpg');  
+        /* background: url('../assets/images/ABOUT\ US\ BACKER.JPG');  */
         background-size: cover; 
     }
+    
+
     .navbar-brand {
         font-family: 'Belshaw', sans-serif;
         text-shadow: 0px 3px 1px #FDE400;
